@@ -14,26 +14,43 @@ function App() {
   const [cartItems, setCartItems] = useState([]);
 
   const products = [
-    {
-      id: 1,
-      name: "Elegant Silk Party Dress",
-      price: "1,999",
-      img: "https://images.unsplash.com/photo-1520975916090-3105956dac38"
-    },
-    {
-      id: 2,
-      name: "Urban Denim Jacket",
-      price: "2,499",
-      img: "https://images.unsplash.com/photo-1544441893-675973e31985"
-    },
-    {
-      id: 3,
-      name: "Cotton Floral Kurti",
-      price: "1,299",
-      img: "https://images.unsplash.com/photo-1521334884684-d80222895322"
-    }
-  ];
-
+  {
+    id: 1,
+    name: "Omorfia Hydrating Face Serum",
+    price: 1299,
+    img: "https://res.cloudinary.com/dyutmmnia/image/upload/v1774413375/Screenshot_2026-03-25_095853_v5tjpd.png",
+    category: "Skincare"
+  },
+  {
+    id: 2,
+    name: "Omorfia Vitamin C Face Cream",
+    price: 999,
+    img: "https://res.cloudinary.com/dyutmmnia/image/upload/v1774413375/Screenshot_2026-03-25_095837_mqb55n.png",
+    category: "Skincare"
+  },
+  {
+    id: 3,
+    name: "Omorfia Aloe Vera Gel",
+    price: 499,
+    img: "https://res.cloudinary.com/dyutmmnia/image/upload/v1774413375/Screenshot_2026-03-25_095916_wugvdt.png",
+    category: "Skincare"
+  },
+  {
+    id: 4,
+    name: "Omorfia Sunscreen SPF 50",
+    price: 799,
+    img: "https://res.cloudinary.com/dyutmmnia/image/upload/v1774413375/Screenshot_2026-03-25_095845_znrur7.png",
+    category: "Skincare"
+  },
+  {
+    id: 5,
+    name: "Omorfia Face Wash",
+    price: 399,
+    img: "https://res.cloudinary.com/dyutmmnia/image/upload/v1774413375/Screenshot_2026-03-25_095904_gqik7j.png",
+    category: "Skincare"
+  },
+  
+];
   const handleAddToCart = (product, qty) => {
 
     const items = [];

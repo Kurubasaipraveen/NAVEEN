@@ -10,7 +10,7 @@ import '../App.css'
         <div className="contact-item">
           <i className="fa-solid fa-envelope"></i>
           <h4>Email</h4>
-          <p>support@naveenfashion.com</p>
+          <p>support@naveenskincare.com</p>
         </div>
 
         {/* Phone */}

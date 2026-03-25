@@ -1,10 +1,11 @@
 import React from 'react';
-import '../App.css'
+import '../App.css';
+
 const Footer = () => {
   return (
     <footer className="footer">
-      &copy; 2026 Naveen Fashion Store | Designed with ❤️ by Sairaveen Kuruba <br />
-      <small>Visit us at Jobkickstart.online</small>
+      &copy; 2026 Omorfia Skincare | Glow Naturally ✨ <br />
+      Designed with ❤️ by Sairaveen Kuruba
     </footer>
   );
 };
